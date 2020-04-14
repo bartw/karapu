@@ -1,0 +1,19 @@
+{
+  "name": "karapu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodegit": "^0.26.5",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.4"
+  }
+}
