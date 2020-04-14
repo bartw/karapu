@@ -2,13 +2,13 @@
   "name": "karapu",
   "version": "1.0.0",
   "description": "",
-  "bin": "index.js",
+  "bin": "src/index.js",
   "scripts": {
-    "start": "node index.js"
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Bart Wijnants",
+  "license": "MIT",
   "dependencies": {
     "nodegit": "^0.26.5",
     "rimraf": "^3.0.2"
