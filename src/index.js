@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { existsSync } = require("./file-system");
 const { clone, eraseHistory, createHistory } = require("./git");
 const { clearPackage } = require("./package");
